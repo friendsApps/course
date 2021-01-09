@@ -1,0 +1,107 @@
+
+
+#central{
+    max-width: 900px;
+    margin:0 15px;
+  }
+  #central header{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px;  
+  }
+  
+  #central header div ul{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  #central header div ul li {
+    margin:0 10px;
+    font-size:17px;
+    color:rgba(118,132,146,.8);
+    font-weight: 600;
+  }
+  #central header div ul li.active{
+    color:#5E81F4;
+  }
+  
+  #central .last_course{
+    width:100%;
+    padding: 30px;
+    background:url('https://i.ibb.co/SmC76Sn/frame01.png');
+    height: 363px;
+    border-radius: 10px;
+    background-size: cover;
+    background-color:#5E81F4;
+    position: relative;
+  }
+  #central .last_course header{
+    top:0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+  
+  #central .last_course header div{
+    display: flex;
+    flex-direction: column;
+    color:var(--white);
+  }
+  #central .last_course footer{
+    bottom:0;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .profile_circle img{
+    border-radius: 100%;
+    border:2px solid var(--white);
+  }
+  #central .container_course{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  #central .container_course .course{
+    margin: 20px auto ;
+    padding: 30px 40px;
+    width: 100%;
+    height: 311px;
+    max-width: 415px;
+    border-radius:10px;
+    background-size: cover;
+  
+    position:relative;
+  }
+  
+  #central .container_course .course header{
+    display: flex;
+    width:100%;
+    color:var(--white);
+    justify-content: space-between;
+    align-items: center;
+  
+    position: absolute;
+    top:0;
+    left:0;
+    padding:30px;
+  }
+  #central .container_course .course footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  
+    position: absolute;
+    bottom:0;
+    left: 0;
+    padding:10px 30px;
+  }
+  
+  #central .container_course .course header div{
+    display: flex;
+    flex-direction: column;
+  }
