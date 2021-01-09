@@ -42,13 +42,14 @@
     display: flex;
     margin: 25px 0;
   }
-  
-  .lateral-1 nav ul li:hover{
-    color:var(--primary);
+  .lateral-1 nav ul li a{
+    display: flex;
+    flex-direction: row;
+    text-decoration:none;
   }
+
   
-  
-  .lateral-1 nav ul li span{
+  .lateral-1 nav ul li a span{
     display: flex;
     color:#8DA1B5;
     font-weight: 600;
